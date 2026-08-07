@@ -1,0 +1,1 @@
+Create a secrets.yaml file in /backend/config according to secret.yaml.example
