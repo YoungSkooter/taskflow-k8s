@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: taskflow-config
+  namespace: taskflow
+
+data:
+  PORT: "3000"
+  NODE_ENV: "production"
+
+  DB_HOST: "taskflow-postgres.cjiseu4a6yvj.us-east-2.rds.amazonaws.com"
+  DB_PORT: "5432"
+  DB_NAME: "taskflow"
+
+  REDIS_HOST: "taskflow-redis.yqvqb4.0001.use2.cache.amazonaws.com"
+  REDIS_PORT: "6379"
+
+  VITE_API_URL: "/api"
+
+  LOG_LEVEL: "info"
