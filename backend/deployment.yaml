@@ -21,7 +21,7 @@ spec:
       containers:
         - name: backend
 
-          image: 996860765311.dkr.ecr.us-east-2.amazonaws.com/taskflow-backend:06f5a35
+          image: 996860765311.dkr.ecr.us-east-2.amazonaws.com/taskflow-backend:9121b5b
 
           ports:
             - containerPort: 3000
